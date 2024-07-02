@@ -113,7 +113,7 @@ void Foam::fv::crossFlowTurbineALSource::createBlades()
             scalar chordLength = elementData[j][3];
             scalar chordMount = elementData[j][4];
             scalar pitch = elementData[j][5];
-            scalar cone = elementData[j][6];  // Reads in the cone angle (from rotation axis) in degrees
+            scalar cone = elementData[j][6];  // Reads in the cone angle (from rotation axis) in degrees // Positive cone angle is clockwise from vertical
 
             // Compute frontal area contribution from this geometry segment
             if (j > 0)
@@ -166,7 +166,7 @@ void Foam::fv::crossFlowTurbineALSource::createBlades()
             // Set span directions for AL source
             vector spanDir = origin_; // Initialising the span-direction vector
             spanDir += 0*freeStreamDirection_;
-            spanDir += sin(degToRad(cone))*radialDirection_;
+            spanDir += sin(degToRad(cone))*radialDirection_;  // Positive cone angle is clockwise from vertical
             spanDir += cos(degToRad(cone))*axis_;
             rotateVector(spanDir, vector::zero, axis_, azimuthRadians);
             elementGeometry[j][1][0] = spanDir.x(); // x component of span dir
