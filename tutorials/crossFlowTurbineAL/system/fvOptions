@@ -77,7 +77,7 @@ turbine
                 endEffects  on;
                 elementProfiles (NACA0021);
                 elementData
-                ( // axialDistance, radius, azimuth, chord, chordMount, pitch, coneAngle
+                ( // axialDistance, radius, azimuth, chord, chordMount, pitch, coneAngle (positive for clockwise from vertical)
                     (-0.5 0.5 0.0 0.14 0.5 0.0 0.0)
                     (0.5 0.5 0.0 0.14 0.5 0.0 0.0)
                 );
