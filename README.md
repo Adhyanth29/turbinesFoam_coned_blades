@@ -57,7 +57,7 @@ Bachant, P., Goude, A., and Wosnik, M. (2016) [_Actuator line modeling of vertic
 How to cite
 -----------
 
-The latest release of turbinesFoam can be cited via DOI thanks to Zenodo: [![DOI](https://zenodo.org/badge/4234/turbinesFoam/turbinesFoam.svg)](https://zenodo.org/badge/latestdoi/4234/turbinesFoam/turbinesFoam)
+The latest release of turbinesFoam can be cited via DOI thanks to Zenodo: [![DOI](https://zenodo.org/badge/4234/turbinesFoam/turbinesFoam.svg)](https://zenodo.org/badge/latestdoi/4234/turbinesFoam/turbinesFoam). You can cite this version as: Giri Ajay, A., & Simao Ferreira, C. (2024). turbinesFoam_coned_blades (Version 1.0.0) [Computer software]. [![DOI](https://doi.org/10.5281/zenodo.1234)
 
 
 Acknowledgements
