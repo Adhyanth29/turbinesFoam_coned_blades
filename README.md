@@ -1,4 +1,4 @@
-turbinesFoam
+turbinesFoam_coned_blades
 ============
 
 ![OpenFOAM v2306](https://img.shields.io/badge/OpenFOAM-v2306-brightgreen.svg)
@@ -7,7 +7,7 @@ turbinesFoam
 [![DOI](https://zenodo.org/badge/4234/turbinesFoam/turbinesFoam.svg)](https://zenodo.org/badge/latestdoi/4234/turbinesFoam/turbinesFoam)
 
 turbinesFoam is a library for simulating wind and marine hydrokinetic turbines
-in OpenFOAM using the actuator line method.
+in OpenFOAM using the actuator line method. This version of turbinesFoam adds an implementation to simulate vertical-axis wind turbines with blade cone angles - such as the Troposkien shape.
 
 [![](https://cloud.githubusercontent.com/assets/4604869/10141523/f2e3ad9a-65da-11e5-971c-b736abd30c3b.png)](https://www.youtube.com/watch?v=THZvV4R1vow)
 
